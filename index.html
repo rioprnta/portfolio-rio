@@ -31,6 +31,19 @@
 #contact input, #contact textarea, #contact select {
     color: #000;
 }
+input:focus, input:active{
+   background-color: #000;
+}
+#contact input:focus,
+#contact textarea:focus,
+#contact select:focus {
+	color: #fff;
+	background-color: #f1182d;
+}
+#contact span.required {
+    color: #f1182d;
+    font-size: 13px;
+}
 </style>
 
 <body>
@@ -47,6 +60,7 @@
             <li style="margin-left: -20px;">
                <img src="images/Logo Rio (circle).png" style="width: 50px;margin-bottom: -20px;">
                <span class="smoothscroll" style="color: white;">Rio Pranata </span>
+               <span style="margin-left: 50px;"></span>
             </li>
             <li class="current"><a class="smoothscroll" href="#scroll_headers" style="margin-top: 20px;">Home</a></li>
             <li><a class="smoothscroll" href="#about">About</a></li>
@@ -61,8 +75,8 @@
       <div class="row banner">
          <div class="banner-text">
             <h1 class="responsive-headline">I'm Web Developer</h1>
-            <h3>I'm a  <span>Web Developer</span> and <span>webdesigner</span> creating awesome and
-            effective visual identities for companies of all sizes around the globe. Let's <a class="smoothscroll" href="#about">start scrolling</a>
+            
+            <h3>I'm a  <span>Web Developer</span> and <span>webdesigner</span> create solutions for various lines of business, providing users and companies with an easy-to-use interface. Let's <a class="smoothscroll" href="#about">start scrolling</a>
             and learn more <a class="smoothscroll" href="#about">about me</a>.</h3>
             <hr />
             <ul class="social">
@@ -98,7 +112,7 @@
             <h2>About Me</h2>
 
             <p>
-               I graduated from the Indonesian Methodist University, Faculty of Computer Science, Department of Informatics with a focus on applications and web development. Competence in programming languages PHP, Java, Javascript, HTML and CSS. I am active in the student organization of the Faculty Student Executive Board (BEM) as a member of the Cadreization Department who was the Chair of the 2018 New Student Retreat/Makrab committee. I have experience as a Laboratory Assistant and Lecturer Assistant for 1 year 5 months.
+               I graduated from the Department of Informatics, Department of Computer Science, Methodist University, Indonesia, focusing on application and web development. Proficient in programming languages PHP, Java, Javascript, HTML and CSS. I am active in the student organization of the Faculty Student Executive Board (BEM) as a member of the Cadreization Department who was the Chair of the 2018 New Student Retreat/Makrab committee. I have experience as a Laboratory Assistant and Lecturer Assistant for 1 year and 5 months.
             </p>
 
             <div class="row">
@@ -197,7 +211,7 @@
 
                   <p>
                      <li>Assist/replace lecturers during the practicum lecture process.</li>
-                     <li>Responsible for the hardware and software work of the practice room.</li>
+                     <li>Responsible for the software and hardware of the practice room.</li>
                   </p>
 
                </div>
@@ -237,16 +251,13 @@
          <div class="nine columns main-col">
 
             <p>
-               I'm interested in programming so at this point, I'm focusing on Application 
-               and Web development. Proficient in programming languages such as PHP, Java, 
-               Javascript, HTML & CSS, and deepen your skills and abilities in the process 
-               of learning React JS.
+               I'm interested in programming so, at this point, I'm focusing on Application and Web development. Proficient in programming languages such as PHP, Java, JavaScript, HTML & CSS, and deepen your skills and abilities in the process of learning React JS.
             </p>
 
 				<div class="bars">
 
 				   <ul class="skills">
-					   <li><span class="bar-expand photoshop"></span><em>HTML & CSS</em></li>
+					   <li><span class="bar-expand photoshop" title="HTML & CSS"></span><em>HTML & CSS</em></li>
                   <li><span class="bar-expand css"></span><em>MYSQL & PHP</em></li>
 						<li><span class="bar-expand wordpress"></span><em>Photoshop</em></li>
 						<li><span class="bar-expand photoshop"></span><em>MICROSOFT OFFICE</em></li>
@@ -429,7 +440,7 @@
 
 		      <div class="description-box">
 			      <h4>Promotion Website KR5 Laundry</h4>
-			      <p>Website informasi harga dan promo lainnya untuk kebutuhan user dan pelanggan</p>
+			      <p>Price information website and other promotions tailored to user and customer needs</p>
                <span class="categories"><i class="fa fa-tag"></i>Promotion, Information</span>
 		      </div>
 
@@ -446,7 +457,7 @@
 
 		      <div class="description-box">
 			      <h4>Operational Website</h4>
-			      <p>Website Operational untuk meminimalisir kesalahan dan biaya penggunaan ATK</p>
+			      <p>Website Operations to minimize errors and costs for using ATK</p>
                <span class="categories"><i class="fa fa-tag"></i>Operational, WebMonitoring</span>
 		      </div>
 
@@ -463,7 +474,7 @@
 
 		      <div class="description-box">
 			      <h4>Surya Swalayan</h4>
-			      <p>Website untuk Promotion dan pemasanan barang secara online oleh pelanggan dengan sistem delivery</p>
+			      <p>Website for online promotion and ordering of goods by customers with a delivery system</p>
                <span class="categories"><i class="fa fa-tag"></i>Operational, Promotion</span>
 		      </div>
 
@@ -479,8 +490,8 @@
 		      <img class="scale-with-grid" src="Blogger.png" alt="" />
 
 		      <div class="description-box">
-			      <h4>Blogger Tutorial</h4>
-			      <p>Blogger berisi tutorial dan problem sovlving web dengan PHP</p>
+			      <h4>Blogger tutorials</h4>
+			      <p>Blogger contains tutorials and web problem solving with PHP</p>
                <span class="categories"><i class="fa fa-tag"></i>Tutorial</span>
 		      </div>
 
@@ -490,75 +501,6 @@
             </div>
 
 	      </div><!-- modal-04 End -->
-
-         <div id="modal-05" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-farmerboy.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Farmer Boy</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Branding, Webdesign</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="#" target="_blank">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-05 End -->
-
-         <div id="modal-06" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-girl.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Girl</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Photography</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="#" target="_blank">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-06 End -->
-
-         <div id="modal-07" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-origami.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Origami</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Branding, Illustration</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="#" target="_blank">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-07 End -->
-
-         <div id="modal-08" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-retrocam.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Retrocam</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Webdesign, Photography</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="#" target="_blank">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-01 End -->
-
 
       </div> <!-- row End -->
 
@@ -578,12 +520,9 @@
 
          <div class="seven columns">
 
-            <h2><span class="lead">IT World Competition</span></h2>
-            <p><span class="lead">
-               But in order that you may understand whence every born error is the pleasure of 
-               accusing and praising the pain, I will open the whole thing, and those very things 
-               which were founded by that inventor of the truth and, as it were, the architect of 
-               a happy life.
+            <h2><span class="lead">World Knowledge Base</span></h2>
+            <p><span class="">
+               Where you come from is very important, but how you can build the mindset of your environment for the better or the influence of your environment is very influential on your behavior and mindset because the environment is very influential on how you develop in the future. Learning what you think is interesting and like will form your character by itself.
             </span></p>
 
          </div>
@@ -620,22 +559,18 @@
 
                      <li>
                         <blockquote>
-                           <p>Your work is going to fill a large part of your life, and the only way to be truly satisfied is
-                           to do what you believe is great work. And the only way to do great work is to love what you do.
-                           If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know.
+                           <p>The results of your work are very satisfying and meet my expectations. I hope in the future for system maintenance and system updates to be more user-friendly for my users and customers.Your knowledge needs to be developed again, just like an item.
+                           If you haven't found it yet, keep looking. Don't settle down. As with all matters of the heart, you will know.
                            </p>
-                           <cite>Steve Jobs</cite>
+                           <cite>KR5 Laundry</cite>
                         </blockquote>
                      </li> <!-- slide ends -->
 
                      <li>
                         <blockquote>
-                           <p>This is Photoshop's version of Home. The author wants the economics 
-                              to be pregnant. Aenean sollicitudin, lorem quis bibendum auctor, 
-                              nisi elit consequat ipsum, nec arrow sem nibh id elit. But the film 
-                              is hated by the love of the Olympic races.
+                           <p>The design and information system that you made satisfied me. Posters and websites for self-service orders are very easy for my customers. Hopefully, in the future, we can cooperate with other types of businesses.
                            </p>
-                           <cite>Mr. Adobe</cite>
+                           <cite>Bastanta Ginting</cite>
                         </blockquote>
                      </li> <!-- slide ends -->
 
@@ -666,11 +601,7 @@
             <div class="ten columns">
 
                   <p class="lead">
-                     But in order to understand whence every born error is the 
-                     pleasure of accusing and praising the pain, I will open the whole thing, 
-                     and will explain the very things which were said by that inventor of the 
-                     truth and, as it were, the architect of the blessed life. For no one either 
-                     hates or shuns pleasure because it is pleasure itself.
+                     But to find out more or provide suggestions or constructive feedback, you can even contact me below. Because whatever you do will not be perfect if there is no suggestion or criticism of your work.
                   </p>
 
             </div>
@@ -702,7 +633,7 @@
 
                   <div>
                      <label for="contactMessage">Message <span class="required">*</span></label>
-                     <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
+                     <textarea cols="50" rows="1" id="contactMessage" name="contactMessage"></textarea>
                   </div>
 
                   <div>
@@ -739,7 +670,7 @@
 
 				   </div>
 
-               <div class="widget widget_tweets">
+               <!-- <div class="widget widget_tweets">
 
                   <h4 class="widget-title">Latest Tweets</h4>
 
@@ -764,7 +695,7 @@
                      </li>
                   </ul>
 
-		         </div>
+		         </div> -->
 
             </aside>
 
@@ -781,11 +712,11 @@
          <div class="twelve columns">
 
             <ul class="social-links">
-               <li><a href="https://www.facebook.com/rio.pranginnangin"><i class="fa fa-facebook"></i></a></li>
-               <li><a href="https://www.linkedin.com/in/rio-pranata-p29366a14b/"><i class="fa fa-linkedin"></i></a></li>
-               <li><a href="https://twitter.com/ripar_011"><i class="fa fa-twitter"></i></a></li>
-               <li><a href="https://github.com/rioprnta"><i class="fa fa-github"></i></a></li>
-               <li><a href="https://www.instagram.com/riopranata__/"><i class="fa fa-instagram"></i></a></li>
+               <li><a href="https://www.facebook.com/rio.pranginnangin" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+               <li><a href="https://www.linkedin.com/in/rio-pranata-p29366a14b/" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="https://twitter.com/ripar_011"><i class="fa fa-twitter" title="Twitter"></i></a></li>
+               <li><a href="https://github.com/rioprnta"><i class="fa fa-github" title="Github"></i></a></li>
+               <li><a href="https://www.instagram.com/riopranata__/" title="Instagram"><i class="fa fa-instagram"></i></a></li>
                <!-- <li><a href="#"><i class="fa fa-dribbble"></i></a></li> -->
                <!-- <li><a href="#"><i class="fa fa-skype"></i></a></li> -->
             </ul>
